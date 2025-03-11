@@ -123,22 +123,22 @@ class RegisterRoute extends Component {
 
     return (
       <div className='login-form-container'>
-        <img
+       {/* <img
           src='https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png'
           className='login-website-logo-mobile-image'
           alt='website logo'
-        />
+        /> */}
         <img
           src='https://res.cloudinary.com/dqzf8y0bc/image/upload/v1737306739/rb_22153_erkgie.png'
           className='register-image'
           alt='website register'
         />
         <form className='form-container' onSubmit={this.submitForm}>
-          <img
+          {/*<img
             src='https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png'
             className='login-website-logo-desktop-image'
             alt='website logo'
-          />
+          /> */}
           <div className='input-container'>{this.renderUsernameField()}</div>
           <div className='input-container'>{this.renderPasswordField()}</div>
           <button type='submit' className='login-button'>
