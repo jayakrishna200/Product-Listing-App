@@ -1,0 +1,38 @@
+.customizable-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.customizable-input{
+height:25px;
+width:25px;
+background-color: transparent;    
+}
+.customizable-label{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: black;   
+}
+.filter-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.filter-input{
+    height:25px;
+    width:25px;
+       
+}
+.filter-label-group{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: black;   
+}
+.filter-select-group{
+      
+}

@@ -1,0 +1,292 @@
+.home-container{
+    min-height:100vh;
+    width:100vw;
+    background-color: aliceblue;
+}
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.tab-container{
+   width: 100%;
+    margin-top: 30px;
+}
+.tab-item{
+    color: black;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.tab-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+.home-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    margin-top: 50px;
+}
+.home-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.home-description{
+    font-size: 18px;
+    color: black;
+}
+.home-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width:50%;
+}
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin:80px;
+}
+.filter-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:8px;
+}
+.filter-item-count{
+ font-family: "Roboto";
+ font-weight: bold;
+ color: black;   
+}
+.filter-item-text{
+    font-family: "Roboto";
+    color: black;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.filter-select{
+ cursor: pointer;
+ font-weight: bold;
+ color: black;
+ font-size: 12px;
+ background-color: aliceblue;  
+ border-width: 0px; 
+}
+.products-container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:80px;
+}
+.filters-group-home{
+    width: 10%;
+}
+.products-container{
+    width: 90%;
+    min-height: 100%;
+}
+.products-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+footer{
+    width:100vw;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer-laptop-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.footer-laptop-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width:100%;
+}
+.footer-laptop-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width:100%;
+}
+.footer-laptop-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width:100%;
+}
+.footer-laptop-left-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width:100%;
+}
+.footer-laptop-right-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width:100%;
+}
+
+@media all and (min-width:576px){
+    .footer-laptop{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .footer-laptop-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .footer-laptop-left{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        width:50%;
+        
+    }
+    .footer-laptop-right{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        width:50%;
+        
+    }
+    .footer-laptop-right{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        width:50%;
+        
+    }
+    .footer-input{
+        width: 80%;
+        background-color: aliceblue;
+        height: 32px;
+        width: 200px;
+    }
+    .footer-button{
+        width: 20%;
+        height: 32px;
+        width: 90px;
+        margin-left: 10px;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .fotter-input-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 8px;
+    
+    }
+    .footer-title{
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+    .footer-description{
+        font-family: "Roboto";
+        font-size: 18px;
+        color: white;
+    }
+    .footer-laptop-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .footer-laptop-left-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: flex-start;
+        width:50%;
+        
+    }
+    .footer-laptop-left-bottom-top{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        width:50%;
+        
+    }
+    .footer-laptop-left-bottom-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        width:50%;
+        
+    }
+    .footer-laptop-right-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        width:50%;
+        
+    }
+    .footer-line{
+        width:100%;
+        height:1px;
+        background-color: white;
+    }
+    .footer-laptop-right-bottom-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+@media all and (max-width:576px){
+    .tab-container{
+        display: none;
+    }
+}
